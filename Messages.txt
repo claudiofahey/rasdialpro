@@ -1,0 +1,56 @@
+
+Possible error messages:
+----------------------------------------
+
+RasDial Pro: RAS Error %d: %s
+
+RasDial Pro: RAS Error 5: Access is denied
+
+RasDial Pro: Win32 Error %d: %s
+
+RasDial Pro: Win32 Error %d: Unknown error (0x%x)
+
+RasDial Pro: Destination network not specified after /ADDROUTE parameter.
+
+RasDial Pro: Unable to allocate memory.
+
+RasDial Pro: Mask not specified after MASK specifier.
+
+RasDial Pro: Metric not specified after METRIC specifier.
+
+RasDial Pro: Unknown option %s.
+
+RasDial Pro: Unknown argument %s.
+
+RasDial Pro: Warning: Unable to set control handler.
+
+Possible results of RDIALPRO dial command:
+------------------------------------------
+
+Connecting to %s...
+Successfully connected to %s
+Command completed successfully.
+
+You are already connected to %s.
+Command completed successfully.
+
+Waiting for %d seconds for retry %d...
+
+Possible results of RDIALPRO hangup command:
+--------------------------------------------
+
+Disconnecting from %s...
+Successfully disconnected from %s.
+Command completed successfully.
+
+You are not connected to %s.
+Command completed successfully.
+
+Possible results of RDIALPRO display connections command:
+---------------------------------------------------------
+
+No connections
+
+Connected to
+%s
+

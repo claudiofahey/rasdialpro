@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RasDial95 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo".\WinDebug/RasDialPro.res" /d "_DEBUG" "D:\MUConsulting\RasDialPro\RasDialPro.rc"" 
+Creating temporary file "D:\DOCUME~1\claudio\LOCALS~1\Temp\RSP2407.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D WINVER=0x0400 /Fr".\WinDebug/" /Fp".\WinDebug/RasDialPro.pch" /YX /Fo".\WinDebug/" /Fd".\WinDebug/" /FD /c 
+"D:\MUConsulting\RasDialPro\RasDialPro.cpp"
+"D:\MUConsulting\RegCode\RegCodeCommon.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\claudio\LOCALS~1\Temp\RSP2407.tmp" 
+Creating temporary file "D:\DOCUME~1\claudio\LOCALS~1\Temp\RSP2408.tmp" with contents
+[
+rasapi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:".\WinDebug/RDialPro.pdb" /debug /machine:I386 /out:".\WinDebug/RDialPro.exe" 
+.\WinDebug\RasDialPro.obj
+.\WinDebug\RegCodeCommon.obj
+.\WinDebug\RasDialPro.res
+]
+Creating command line "link.exe @D:\DOCUME~1\claudio\LOCALS~1\Temp\RSP2408.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+RasDialPro.cpp
+RegCodeCommon.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+RDialPro.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

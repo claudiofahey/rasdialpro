@@ -1,0 +1,17 @@
+# Microsoft Developer Studio Generated Dependency File, included by RasDialPro.mak
+
+.\RasDialPro.cpp : \
+	"..\..\program files\microsoft sdk\include\basetsd.h"\
+	"..\..\program files\microsoft sdk\include\guiddef.h"\
+	"..\..\program files\microsoft sdk\include\propidl.h"\
+	"..\..\program files\microsoft sdk\include\reason.h"\
+	"..\..\program files\microsoft sdk\include\stralign.h"\
+	"..\..\program files\microsoft sdk\include\tvout.h"\
+	"..\..\program files\microsoft sdk\include\winefs.h"\
+	"..\regcode\regcodecommon.h"\
+	".\RasDialProCommon.h"\
+	
+
+..\RegCode\RegCodeCommon.cpp : \
+	"..\regcode\regcodecommon.h"\
+	
